@@ -1,0 +1,17 @@
+/* propiedad(Margen) */
+/* 
+|HTML5 | Elementos
+ */
+#select{
+    border: 2px solid black
+}
+#element{
+    /* margin: 10px; */
+    background-color: blueviolet;
+    margin: auto;
+    margin: 20% 30%;
+    /* margin-top: 10%;
+    margin-right: 770px;
+    margin-left: 10px;
+    margin-bottom: 20px; */
+}

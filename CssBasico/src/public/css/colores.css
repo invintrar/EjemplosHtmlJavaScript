@@ -1,0 +1,18 @@
+/* colores {propiedad: valor */
+    /* 
+    RGB (0-255)
+    HEX #RRGGBB #rgb(0 y f)
+    HSL ( 0- 360)(R:0 G:120 B:240)
+    RGBA(0-255 | 0.0 - 1.0)
+    HLSA
+    Nombre
+     */
+    h2{
+        background-color: rgba(60, 27, 204, 0.05);
+        color: rgb(34, 37, 212);
+        border: 2px solid #fc9;
+    }
+    #Dcolor{
+        background-color: hsl(0, 90%, 35%);
+        color: hsla(235, 70%, 35%, 0.45);
+    }

@@ -1,21 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/FAQPage">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="keywords" content="ws, html, jx">
+    <meta name="description" content="Ejemplo de Web semantica">
+    <meta name="author" content="Darwin Zh">
+    <title>Ejemplo WS</title>
 </head>
 
 <body>
+    <header>
+        <h1>Web semantica</h1>
+    </header>
     <!-- texto enriquecido -->
-    <!-- 
-        -Preguntas frecuentes
-        -Conjunto de datos
-        -Rutsd de exploracion
-    -->
-    
+    <main>
+        <!-- -Preguntas frecuentes -microdatos -->
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 itemprop="name">Cual es la estructura de un documento html ?</h3>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemprop="text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Reprehenderitsequi fuga quidem. In
+                    <strong> vitae amet laboriosam</strong>, beatae, dolores, veniam quia accusantium totam dolorem non
+                    omnis dolor delectus! Expedita, explicabo consequatur! <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <!-- -Conjunto de datos | JSON-LD - RDFa -->
+        <article about="/articulo/145" typeof="dcat:Dataset">
+            <dl>
+                <dt>Nombre:</dt>
+                <dd property="dc:title">ACD flow data</dd>
+                <dt>Identificadores</dt>
+                <dd property="dc:identifier">https://articulo2565/manigua</dd>
+                <dd property="dc:identifier">https://articulo2565/manigua3</dd>\
+                <dt>Descripcion</dt>
+                <dd property="cd:description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo reprehenderit quisquam quos non ut animi corporis quaerat voluptates, tempora error qui quas maiores impedit esse distinctio et ex suscipit alias!
+                </dd>
+                <dt>Categoria</dt>
+                <dd rel="dc:subject">Financiera</dd>
+                <dt class="field-label">Descarga</dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <a rel="dcat:distribution" href="#">lista_data.csc</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a rel="dcat:distribution" href="#">lista_data.xls</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a rel="dcat:distribution" href="#"><lista_data.html"></lista_data></a>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </article>
+
+        <!-- -Rutas de exploracion -->
+    </main>
+    <footer>
+        <span>Este es el footer</span>
+    </footer>
+
 </body>
 
 </html>

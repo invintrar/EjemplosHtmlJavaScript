@@ -1,0 +1,19 @@
+/* propiedad(padding) */
+
+#select{
+    border: 2px solid black
+}
+/*
+
+ */
+#element{
+    background-color: blue;
+    color: cornsilk;
+    margin:10px 40px;
+    /* padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px; */
+    padding: 25px ;
+    
+}

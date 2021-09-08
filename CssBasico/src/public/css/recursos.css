@@ -1,0 +1,30 @@
+/* selector {propiedad: valor */
+/*
+    selectores simples
+    selectores de combinacion
+    selectores pseudo-clases
+    selectores pseudo-elementos
+    selectores de atributos
+ */
+ /* Selectores de elementos */
+
+ h2{
+    color:blueviolet
+}
+/* selectores por id */
+#Dcolor{
+    color: red !important;
+}
+/* Selectores Class */
+.Dcolor{
+    color: aquamarine !important;
+}
+/* Selectores universal */
+*{
+    background: burlywood;
+}
+/* Selectroes de agrupacion */
+h2,h3{
+    color:black;
+    font-size: 25px;
+}

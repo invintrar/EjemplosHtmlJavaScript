@@ -1,0 +1,29 @@
+/* propiedad (Fondo) */
+/*
+    background-color:;
+    background-image:;
+    background-attachment:;
+    background-repeat:;
+    background
+ */
+#Dcolors{
+    background-color: rgb(119, 13, 196);
+    opacity: 0.5;
+}
+body{
+    /* background-image: url("../img/fondo.png"); */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: no-repeat;
+    background-position: right; */
+    background: url(../img/fondo.png) no-repeat right top;
+    /*
+    color
+    imagen
+    repeat
+    attachment
+    position
+     */
+}
+#Scolor{
+    background-image: url(../img/fondo1.jpg);
+}

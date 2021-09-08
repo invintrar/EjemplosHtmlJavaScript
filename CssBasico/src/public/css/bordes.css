@@ -1,0 +1,38 @@
+/* Propiedad (Bordes) */
+/*
+    HTML5 | Elementos
+ */
+/* border-style */
+
+/* dotted */
+#element{
+    border-style: dotted;
+    /* border-width: (px, em, pt, cm) */
+    border-width: 3px 60x;
+    border-radius: 12px;
+    border-color: blue green orange purple;
+
+}
+/* dashed */
+#element1{border-style: dashed;}
+/* solid */
+#element2{border-style: solid;}
+/* double */
+#element3{border-style: double;}
+/* groove */
+#element4{border-style: groove;}
+/* ridge */
+#element5{border-style: ridge;}
+/* inset */
+#element6{border-style: inset;}
+/* outset */
+#element7{border-style:outset ;}
+/* none  */
+#element8{border-style: none;}
+/* hidden */
+#element9{border-style: hidden;}
+
+p{
+    border: 3px groove blue; 
+    /* border-style: dashed dotted double groove; */
+}

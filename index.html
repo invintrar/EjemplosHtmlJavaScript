@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/FAQPage">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ws, html, js">
+    <meta name="description" content="Ejemplo de Web semantica">
+    <meta name="author" content=" Oscar Restrepo">
+    <title>Ejemplo WS</title>
+</head>
+<body>
+    <header>
+        <h1>Web semantica</h1>
+    </header>
+    <!-- texto enriquecido -->
+    <main>
+        <!-- -preguntas frecuentes -microdatos- -->
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 itemprop="name">Cual es la estructura de un documento html ?</h3>
+            <div  itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemprop="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam 
+                    <br>Aperiam nulla debitis 
+                    <strong>sint dolores!</strong> Eum dolore quas impedit illo perferendis sunt earum aliquid 
+                    fuga! Soluta, fuga? earum <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <!-- -Conjunto de datos | JSON-LD - RDFa |-->
+        <article about="/articulo/145" typeof="dcat:Dataset">
+            <dl>
+                <dt>Nombre:</dt>
+                <dd property="dc:title">ACD flow data</dd>
+                <dt>Identificadores</dt>
+                <dd property="dc:identifier"> https://articulo/2565/manigua </dd>
+                <dd property="dc:identifier"> https://articulo/2565/manigua3 </dd>
+                <dt>Description</dt>
+                <dd property="dc:description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Provident architecto eius asperiores pariatur praesentium. 
+                    Ex praesentium aut at nesciunt error. Magni ipsa, fuga libero 
+                    nisi dolor aperiam. Mollitia, ut autem.
+                </dd>
+                <dt>Categoria</dt>
+                <dd rel="dc:subject"> Financiera </dd>
+                <dt class="field-label"> Descarga:</dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <a rel="dcat:distribution" href="#"> listas_data.csv </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a rel="dcat:distribution" href="#"> listas_data.xls </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a rel="dcat:distribution" href="#"> listas_data.xml </a>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </article>
+        <!-- -Rutas de exploracion -->
+     </main>
+     <footer>
+         <span>Este es el footer</span>
+     </footer>
+</body>
+</html>
